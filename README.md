@@ -1,7 +1,4 @@
-# Apple_Clone
-This is a clone from an old Apple Website https://web.archive.org/web/20140301004610/http://www.apple.com/
-
-# Project: Apple Clone
+# Project: Apple Clone 🍎
 
 This is the project of the Main HTML/CSS curriculum at [Microverse](https://www.microverse.org/)
 This assignment consists of making a clone of a New [Old Apple Website](https://web.archive.org/web/20140301004610/http://www.apple.com/).
