@@ -22,7 +22,7 @@
         <li id="nav-support"><a href="#">support</a></li>
       </ul>
       <form class="nav-form">
-        <i></i>
+        <i class="fas fa-search"></i>
         <input type="text" name="search" value="">
       </form>
     </nav>
@@ -30,10 +30,10 @@
       <div class="hero">
         <h1 class="title"><a href="#"><img src="images\your_verse_title_small.png" alt=""></a></h1>
         <h2 class="subheader">
-          <a href="#"><img src="images\your_verse_subhead_small.png" alt=""></a>
+          <a href="#"><img src="images\your_verse_subhead_small.png" alt="" onmouseover="hoverLink"></a>
         </h2>
         <div class="subheader2">
-          <a id="subheader2" href="#"><img src="images\cta_your_verse_27pt.png" alt=""></a>
+          <a id="subheader2" href="#"><img id="subheader2-img" src="images\cta_your_verse_27pt.png" alt=""></a>
         </div>
       </div>
     </div>
@@ -61,8 +61,17 @@
         </ul>
       </div>
     </footer>
-    <script type="text/javascript">
-      
+    <script>
+      document.getElementById("subheader2-img").addEventListener('mouseover', hoverLink);
+      document.getElementById("subheader2-img").addEventListener('mouseleave', leaveLink);
+      function hoverLink(){
+        document.getElementById('subheader2').style.position = 'relative';
+        document.getElementById('subheader2').style.top = '-32px';
+      }
+      function leaveLink(){
+        document.getElementById('subheader2').style.position = 'relative';
+        document.getElementById('subheader2').style.top = '0';
+      }
     </script>
   </body>
 </html>
