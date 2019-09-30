@@ -59,7 +59,7 @@ table {
   box-sizing: border-box;
 }
 
-body{
+.container{
 	box-sizing: border-box;
 	display: grid;
 	grid-template-columns: 1fr;
@@ -84,6 +84,10 @@ nav ul{
 	flex: 8;
 }
 
+a{
+	text-decoration: none;
+}
+
 nav a{
 	display: block;
 	width: 36px;
@@ -106,6 +110,10 @@ form input{
 	background: transparent;
 	border: 1px solid #525252;
 
+}
+
+li {
+	display: inline-block;
 }
 
 nav li{
@@ -155,13 +163,7 @@ nav li{
 	overflow: auto;
 }
 
-li {
-	display: inline-block;
-}
 
-a{
-	text-decoration: none;
-}
 
 .hero-container{
   background: url(/images/your_verse_hero.jpg) no-repeat 50% 100%;
