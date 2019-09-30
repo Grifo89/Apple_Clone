@@ -88,7 +88,7 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
+  font-family: inherit;
   vertical-align: baseline;
 }
 
@@ -249,8 +249,6 @@ nav li{
   background: url(images/globalnav_text.png) no-repeat 50% 101.2%;
   overflow: auto;
 }
-
-
 
 .hero-container {
   background: url(/images/your_verse_hero.jpg) no-repeat 50% 100%;
