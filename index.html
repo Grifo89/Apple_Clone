@@ -24,7 +24,8 @@
         </ul>
         <form class="nav-form">
           <i class="fas fa-search"></i>
-          <input type="text" name="search" value="">
+          <input class="input"
+          type="text" name="search" value="" placeholder="Search">
         </form>
       </nav>
       <div class="hero-container">
@@ -65,6 +66,8 @@
       <script>
         document.getElementById("subheader2-img").addEventListener('mouseover', hoverLink);
         document.getElementById("subheader2-img").addEventListener('mouseleave', leaveLink);
+        document.querySelector('.input').addEventListener('focus', expand);
+        document.querySelector('.input').addEventListener('blur', reset);
         function hoverLink(){
           document.getElementById('subheader2').style.position = 'relative';
           document.getElementById('subheader2').style.top = '-32px';
@@ -74,7 +77,12 @@
           document.getElementById('subheader2').style.top = '0';
         }
         function expand(){
-
+          document.querySelector('.input').style.background = 'white';
+          document.querySelector('.nav-form').style.flex = '2';
+        }
+        function reset(){
+          document.querySelector('.input').style.background = 'transparent';
+          document.querySelector('.nav-form').style.flex = '1.2';
         }
       </script>
     </div>

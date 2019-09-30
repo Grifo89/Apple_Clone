@@ -137,10 +137,6 @@ table {
 /* =====================================
           START :)  😎
 ====================================== */
-@font-face {
-  font-family: "Lucida Grande";
-  src: url("images\Iconochive-Regular.woff") format('woff');
-}
 
 * {
   box-sizing: border-box;
@@ -190,7 +186,7 @@ form input {
   padding: 0;
   position: absolute;
   top: 9px;
-  width: 106px;
+  width: 80%;
   height: 19px;
   left: 10px;
   border-radius: 8px;
