@@ -13,7 +13,7 @@ Read more about the project detailed description from the [Odin website](https:/
 - The box model
 
 
-### [Live link](https://rawcdn.githack.com/Grifo89/NYT_Article_Clone/master/index.html)
+### [Live link]( https://grifo89.github.io/Apple_Clone/)
 
 # Languages Used
 
