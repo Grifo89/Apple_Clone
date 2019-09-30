@@ -198,6 +198,11 @@ form input {
   border: 1px solid #525252;
 }
 
+form i{
+	z-index: 10;
+	color: black;
+}
+
 li {
   display: inline-block;
 }
